@@ -1,0 +1,522 @@
+/* Global Styles */
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+#bx3 {
+    width: 300px;
+    height: 25px;
+    background-color: #edebebdb;
+    margin-right: 300px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-right: 7%;
+    background-color: #9BBA62;
+    color: rgb(12, 6, 6);
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Travel Section */
+#travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc9c9e7;
+    height: 400px;
+}
+
+#travel h1 {
+    font-size: 64px;
+    color: #000000;
+    padding-top: 7%;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#about h3 {
+    padding-top: 3%;
+    font-size: 30px;
+    color: #9BBA62;
+}
+
+#paragraph {
+    text-align: center;
+    justify-self: center;
+    width: 60%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#boxx {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 70px;
+}
+
+#box1, #box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.929);
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.section i {
+    font-size: 48px;
+    color: #9BBA62;
+}
+
+h4 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+#our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testimonial, #services {
+    padding-top: 5%;
+    color: #9BBA62;
+}
+
+/* Icons */
+.fa-solid {
+    font-size: 48px;
+    color: #9BBA62;
+    padding-bottom: 10px;
+}
+
+/* Client Section */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(31, 26, 26, 0.049);
+}
+
+.client-name {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.client-paragraph {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+    align-items: center;
+}
+
+.images {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    justify-content: center;
+    width: 100px;
+    height:100px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+
+.dune {
+    color: black;
+}
+
+.plus {
+    color: white;
+}
+
+#lastrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #9BBA62;
+    color: #333;
+}
+
+#lastrow h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+}
+
+#lastrow h6, #lastrow a {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#box3 {
+    background-color: aliceblue;
+}
+#final{
+    display:flex;
+     justify-content:center;
+     
+     
+ }
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width: 1200px) {
+    header {
+        padding-right: 1%;
+    }
+
+    #travel h1 {
+        font-size: 60px;
+    }
+
+    #about h3 {
+        font-size: 22px;
+    }
+
+    #paragraph {
+        width: 80%;
+    }
+
+    #boxx {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    #box1, #box2 {
+        width: 400px;
+        height:300px
+    }
+
+    #content {
+        flex-direction:row;
+        align-items:center;
+    }
+
+    .section{
+        flex-direction:column;
+        width:300px;
+        height:300px;
+    }
+    
+    #lastrow{
+        flex-direction:row;
+       align-items:center;
+            gap:20px;
+            
+        }
+    #final{
+       display:flex;
+        justify-content:center;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+    body{
+        padding:1%;
+        margin:1%;
+    }
+    #bx3{
+        width:200px;
+        flex-direction:row;
+    }
+    header {
+        display:flex;
+        flex-direction:column;
+        gap:20px
+        
+        
+    }
+
+
+
+    #travel h1 {
+        font-size: 50px;
+    }
+
+    #about h3 {
+        font-size: 30px;
+    }
+
+    #paragraph {
+        width: 100%;
+    }
+
+    #boxx {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    #box1, #box2 {
+    
+        align-items:center;
+        width: 300px;
+        height:200px;
+    }
+
+    #content {
+        flex-direction:column;
+        align-items:center;
+        gap: 20px;
+    }
+
+
+    .section {
+        flex-direction:column;
+         align-items:center;
+          gap:20px;
+        width: 400px;
+        height:350px
+    }
+
+    .container {
+        display:flex;
+        flex-direction:column;
+        
+        
+    }
+
+  #lastrow{
+  flex-direction:row;
+ align-items:center;
+      gap:20px;
+      
+  }
+
+    
+    #final{
+     display:flex;
+    justify-content:center
+    }
+    #fi{
+        font-size:10px;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        margin: 1%;
+        padding: 1%;
+    }
+
+   #bx3{
+       width:100px;
+       height:10px;
+   }
+    header {
+        display: flex;
+        justify-content:center;
+        flex-direction: column; 
+    }
+
+
+
+    nav ul li {
+        margin-bottom: 10px;
+
+    }
+   .li{
+        font-size:14px;
+    }
+
+   #travel{
+       height:200px
+   }
+   
+ 
+    #travel h1 {
+        font-size: 30px; 
+        
+    }
+
+    
+    #about h3 {
+        font-size: 18px; 
+    }
+
+    #paragraph {
+        width: 90%; 
+        font-size: 14px; 
+    }
+
+    
+    #boxx {
+        flex-direction: row; 
+        gap: 20px;
+    }
+
+    #box1, #box2 {
+        align-items: center;
+        width: 150px;
+        padding: 10px; 
+    }
+     #services{
+        font-size:13px;
+    }
+ 
+    
+    #content {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    
+    .section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%; 
+        padding: 10px; 
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    
+    #lastrow {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #lastrow h2 {
+        font-size: 24px; 
+    }
+
+    #lastrow h6, #lastrow a {
+        font-size: 14px; 
+        line-height: 1.5;
+        margin-bottom: 15px;
+        
+    }
+    
+    #final {
+        display: flex;
+        justify-content: center;
+    }
+
+    #fi {
+        font-size: 10px; 
+    }
+
+    
+    .images {
+        width: 80px;
+        height: 80px; 
+        margin: 10px;
+    }
+
+    .client-paragraph {
+        font-size: 14px; 
+    }
+}
+
+
+
+
+
